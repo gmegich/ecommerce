@@ -1,0 +1,30 @@
+.footer {
+  margin-top: auto;
+  background: #0b241c;
+  color: #c5d4cb;
+  border-top: 1px solid rgba(232, 197, 71, 0.2);
+}
+
+.footer__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.footer__brand {
+  font-family: 'Fraunces', Georgia, serif;
+  color: #f4e7c5;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__text {
+  max-width: 36rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.footer__meta {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}

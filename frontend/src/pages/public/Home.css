@@ -1,0 +1,108 @@
+.hero {
+  min-height: 88vh;
+  background:
+    linear-gradient(135deg, rgba(11, 36, 28, 0.88), rgba(28, 74, 56, 0.72)),
+    url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1600&q=80')
+      center / cover no-repeat;
+  display: flex;
+  align-items: stretch;
+}
+
+.hero__overlay {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 4rem 1.25rem 3rem;
+}
+
+.hero__content {
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero__eyebrow {
+  color: #e8c547;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 0.85rem;
+}
+
+.hero__brand {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(2.6rem, 7vw, 4.4rem);
+  line-height: 1.05;
+  color: #f7efd8;
+  margin-bottom: 1rem;
+  max-width: 12ch;
+}
+
+.hero__lead {
+  max-width: 34rem;
+  color: #d7e4dc;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  margin-bottom: 1.75rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.setup {
+  background: #f3efe4;
+  padding: 3.5rem 1.25rem;
+}
+
+.setup__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.setup__inner h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  color: #14352a;
+  font-size: 1.85rem;
+  margin-bottom: 0.65rem;
+}
+
+.setup__inner > p {
+  color: #3d5349;
+  max-width: 40rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.setup__status {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.setup__status.is-ok {
+  background: #d9efe3;
+  color: #145239;
+}
+
+.setup__status.is-warn {
+  background: #f5e3c7;
+  color: #6a4610;
+}
+
+.setup__stack {
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+  color: #2f453b;
+}
+
+.setup__stack li::before {
+  content: '▸ ';
+  color: #b8860b;
+}
